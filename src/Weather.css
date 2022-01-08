@@ -1,11 +1,19 @@
 .Weather {
   font-family: Arial, sans-serif;
-  border: 1px solid #dadde1;
+
   border-radius: 5px;
-  color: #878787;
+  color: black;
   padding: 16px;
+  background: #e7e7ff;
+  box-shadow: 5px 5px 16px 5px #e3e3e3;
 }
 
+.Weather .city-name {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  color: #2abad3;
+}
 .Weather form {
   margin-bottom: 20px;
 }
@@ -24,9 +32,12 @@
 
 .Weather li {
   font-size: 16px;
-  font-weight: 100;
   line-height: 19px;
   list-style: none;
+}
+
+.Weather .weather-detail-info {
+  margin-left: 80px;
 }
 
 .Weather canvas {

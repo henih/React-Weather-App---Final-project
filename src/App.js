@@ -5,6 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <h1 className="welcome">Weather Forecast from Heni 🙋🏼‍♀️ </h1>
         <Weather defaultCity="Budapest" />
         <footer>
           This application was coded by Henriett Horvath and is{" "}
